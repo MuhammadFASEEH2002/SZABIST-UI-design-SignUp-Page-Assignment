@@ -55,18 +55,33 @@ nav{
     justify-content: space-evenly;
     height: 20vh;
     width: 45vw;
+
 }
 .login-button{
     width: 20%;
     height: 25%;
     background-color: #D21312;
     border: none;
+    color: white;
+    border-radius: 5px;
+}
+.login-button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
 .signup-button{
     width: 20%;
     height: 25%;
     background-color: #D21312;
-    border: none
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.signup-button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
 footer{
     height: 10vh;
