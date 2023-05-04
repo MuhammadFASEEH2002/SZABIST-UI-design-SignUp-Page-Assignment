@@ -10,12 +10,10 @@ body{
     width: 100vw;
     height: 100vh;
     color: #070A52;
-
 }
 nav{
     width: 100vw;
     height: 10vh;
-
 }
 .logo{
     height: 10%;
@@ -29,8 +27,7 @@ nav{
  
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;     
+    align-items: center;   
 }
 .main-form{
     height: 100%;
@@ -52,4 +49,26 @@ nav{
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
+}
+.right{
+    padding-left: 2%;
+}
+/*  */
+.input-icons i {
+    position: absolute;
+}  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+} 
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 90px;
+    text-align: center;
+}
+.input-field {
+    width: 150%;
+    padding: 10px;
+    text-align: center;
 }
