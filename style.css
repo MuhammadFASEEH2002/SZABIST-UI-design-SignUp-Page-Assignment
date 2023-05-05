@@ -87,3 +87,34 @@ footer{
     height: 10vh;
     width: 100vw;
 }
+@media screen and (max-width: 480px) {
+    .logo{
+        height: 10%;
+        width: 15%;
+        position: absolute;
+        right: 0;
+    }
+    .div-1{
+        padding-top: 15%;
+    }
+    .main-content{
+        width: 70%;
+    }
+    .main-content h1{
+        font-size: 2em;
+    }
+    .main-content p{
+        font-size: 1em;
+    }
+    .buttons{
+        width: 50vw;
+    }
+    .login-button{
+        width: 40%;
+        font-weight: bold;
+    }
+    .signup-button{
+        width: 40%;
+        font-weight: bold;
+    }
+}
