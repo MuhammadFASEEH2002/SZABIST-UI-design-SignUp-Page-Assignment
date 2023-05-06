@@ -25,7 +25,7 @@ nav{
 .div-1{
     width: 100vw;
     height: 80vh;
-    padding-top: 5%;
+    padding-top: 7%;
     background-color: #070A52;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ nav{
 }
 .main-content{
     height: 100%;
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,25 +58,28 @@ nav{
 
 }
 .login-button{
-    width: 20%;
-    height: 25%;
+    width: 40%;
+    height: 35%;
     background-color: #D21312;
     border: none;
     color: white;
     border-radius: 5px;
+    font-size: 1em;
 }
 .login-button a{
     text-decoration: none;
     cursor: pointer;
     color: white;
+    
 }
 .signup-button{
-    width: 20%;
-    height: 25%;
+    width: 40%;
+    height: 35%;
     background-color: #D21312;
     border: none;
     color: white;
     border-radius: 5px;
+    font-size: 1em;
 }
 .signup-button a{
     text-decoration: none;
@@ -90,12 +93,12 @@ footer{
 @media screen and (max-width: 480px) {
     .logo{
         height: 10%;
-        width: 15%;
+        width: 20%;
         position: absolute;
         right: 0;
     }
     .div-1{
-        padding-top: 15%;
+        padding-top: 22%;
     }
     .main-content{
         width: 70%;
@@ -111,10 +114,45 @@ footer{
     }
     .login-button{
         width: 40%;
-        font-weight: bold;
+        height: 25%;
+     
     }
     .signup-button{
         width: 40%;
-        font-weight: bold;
+        height: 25%;
     }
 }
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .logo{
+        height: 10%;
+        width: 15%;
+        position: absolute;
+        right: 0;
+    }
+    .div-1{
+        padding-top: 15%;
+    }
+    .main-content{
+        width: 70%;
+    }
+    .main-content h1{
+        font-size: 2.2em;
+    }
+    .main-content p{
+        font-size: 1.2em;
+    }
+    .buttons{
+        width: 50vw;
+    }
+    .login-button{
+        width: 40%;
+        height: 28%;
+     
+    }
+    .signup-button{
+        width: 40%;
+        height: 28%;
+    }
+}
+
+
