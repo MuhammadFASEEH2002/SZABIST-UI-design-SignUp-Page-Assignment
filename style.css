@@ -65,10 +65,10 @@ nav{
     color: white;
     border-radius: 5px;
     font-size: 1em;
+    cursor: pointer;
 }
 .login-button a{
     text-decoration: none;
-    cursor: pointer;
     color: white;
     
 }
@@ -80,10 +80,10 @@ nav{
     color: white;
     border-radius: 5px;
     font-size: 1em;
+    cursor: pointer;
 }
 .signup-button a{
     text-decoration: none;
-    cursor: pointer;
     color: white;
 }
 footer{
